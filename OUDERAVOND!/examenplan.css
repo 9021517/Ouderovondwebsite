@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #295b3d;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+h2, h3 {
+    color: #2d5c42;
+    margin-bottom: 10px;
+}
+
+p, ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #d9e2b3;
+    color: #333;
+    font-weight: bold;
+}
+
+td {
+    background-color: #f3f7e7;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: #295b3d; /* Zelfde kleur als header */
+    padding: 10px 0; /* Boven- en onderruimte */
+}
+
+nav ul {
+    list-style-type: none; /* Verwijder opsommingstekens */
+    padding: 0; /* Verwijder standaard opvulling */
+    margin: 0; /* Verwijder standaard marge */
+    display: flex; /* Horizontale lay-out */
+    justify-content: center; /* Centeren van items */
+}
+
+nav ul li {
+    margin: 0 15px; /* Ruimte tussen de items */
+}
+
+nav a {
+    color: white; /* Witte tekstkleur voor links */
+    text-decoration: none; /* Geen onderstreping */
+    padding: 5px 10px; /* Ruimte rond de tekst */
+    transition: background-color 0.3s; /* Animatie voor hover effect */
+}
+
+nav a:hover {
+    background-color: #1f3d2a; /* Donkerder groen voor hover */
+}
+
+.logo {
+    position: absolute; /* Maak de logo-div absoluut gepositioneerd */
+    top: 10px; /* Stel de afstand van de bovenkant in */
+    left: 10px; /* Stel de afstand van de linkerkant in */
+}
